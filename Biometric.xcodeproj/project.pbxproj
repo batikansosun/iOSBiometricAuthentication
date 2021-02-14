@@ -13,6 +13,7 @@
 		A0A0274325D9D04B0084B288 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0A0274125D9D04B0084B288 /* Main.storyboard */; };
 		A0A0274525D9D04D0084B288 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0A0274425D9D04D0084B288 /* Assets.xcassets */; };
 		A0A0274825D9D04D0084B288 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0A0274625D9D04D0084B288 /* LaunchScreen.storyboard */; };
+		A0A0275225D9D0690084B288 /* LocalAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0A0275125D9D0690084B288 /* LocalAuthentication.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		A0A0274425D9D04D0084B288 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A0A0274725D9D04D0084B288 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A0A0274925D9D04D0084B288 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0A0275125D9D0690084B288 /* LocalAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalAuthentication.framework; path = System/Library/Frameworks/LocalAuthentication.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0A0275225D9D0690084B288 /* LocalAuthentication.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +45,7 @@
 			children = (
 				A0A0273A25D9D04B0084B288 /* Biometric */,
 				A0A0273925D9D04B0084B288 /* Products */,
+				A0A0275025D9D0690084B288 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -65,6 +69,14 @@
 				A0A0274925D9D04D0084B288 /* Info.plist */,
 			);
 			path = Biometric;
+			sourceTree = "<group>";
+		};
+		A0A0275025D9D0690084B288 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A0A0275125D9D0690084B288 /* LocalAuthentication.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
